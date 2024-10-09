@@ -1,0 +1,45 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color: beige;
+
+}
+.logo{
+    background: url(../img/download-removebg-preview.png) no-repeat 80% 80%;
+    background-size: contain ;
+    width: 300px;
+    height: 200px;
+    float: left;
+}
+.menu { 
+    position: absolute; 
+    right: 50px; 
+    border: 2px solid #000; /* Borde de la caja */
+    padding: 20px; /* Espacio interno */
+    margin: 20px; /* Margen externo */
+    background-color: #f9f9f9; /* Color de fondo */
+    border-radius: 10px; /* Esquinas redondeadas */
+} 
+   
+.menu a { 
+    color: #333; 
+    text-decoration: none; 
+    font-weight: 600; 
+    margin-left: 30px; 
+    transition: color 1s; 
+    /text-transform: uppercase;/ 
+} 
+   
+.menu a:hover { 
+    color: #e85860; 
+} 
+   
+.body { 
+    width: 120%; 
+    height: 700px; 
+    background: url(../img/images.png) no-repeat; 
+    background-size: cover; 
+    margin-top: 80px; 
+}
